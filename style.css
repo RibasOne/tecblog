@@ -1,0 +1,120 @@
+/* Limpar formatacoes padrao*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family:'Trebuchet MS', Helvetica, sans-serif;
+    background:  linear-gradient(320deg, #007FFF, lightgreen);
+}
+
+/*Layouts*/
+#logo-area {
+    background: orange;
+    padding: 15px;
+    text-align: center;
+}
+
+#menu-area {
+    background: orange;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.50);
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+#main {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#posts-area {
+    width: 660px;
+    float: left;
+}
+
+#sidebar-area {
+    width: 240px;
+    float: right;
+}
+
+#bottom-area {
+    clear: both;
+    text-align: center;
+    background: lightgreen;
+    padding: 15px;
+}
+
+/*Links*/
+a {
+    text-decoration: none;
+}
+
+#menu-area a:link, #menu-area a:visited {
+    color: white;
+    padding: 8px 12px;
+}
+
+#menu-area a:hover {
+    color: orange;
+    background: white;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: orange;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*Classes*/
+.white {
+    color: white;
+}
+
+.posts {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 3px solid rgba(255, 255, 255, 0.50);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post-date {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.sidebar-content {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 3px solid rgba(255, 255, 255, 0.50);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar-posts {
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+/*General formatting*/
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: orange;
+}
+
+h3 {
+    padding: 5px;
+}
+
