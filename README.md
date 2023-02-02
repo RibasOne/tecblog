@@ -1,2 +1,2 @@
-# tecblog
-Simple technology news website
+tecblog
+Simple technology news website from udemy
